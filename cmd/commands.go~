@@ -1,0 +1,10 @@
+
+import "github.com/spf13/cobra"
+
+var rootCmd = &cobra.Command{
+	Use:   "dpc",
+	Short: "launch backend and front servers for a distributed proxy cache",
+	Run: func(cmd *cobra.Command, args []string) {
+
+	},
+}
